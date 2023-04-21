@@ -42,3 +42,8 @@ CounterTest >> testIncrement [
 CounterTest >> testInitialize [
    self assert: Counter new count equals: 0
 ]
+
+{ #category : #tests }
+CounterTest >> testprintString [
+   self assert: Counter new printString equals: 'a Counter with value: 0'
+]
